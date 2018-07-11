@@ -7,7 +7,7 @@ my $mw = Gtk2::Window->new('toplevel');
 #Create main positioning table
 my $t = Gtk2::Table->new(1, 2, 0);
 
-# 'Hello World' labe
+# 'Hello World' label
 my $label = Gtk2::Label->new('Hello World!');
 $t->attach_defaults($label, 0, 1, 0, 1);
 $label->show;
